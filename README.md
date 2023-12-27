@@ -19,3 +19,5 @@ roadmap:
 this is a recreation of an old python-based personal assistant I began creating over a year ago. It used hard coded response phrases with a lot of API integration.
 After checking out the new OpenAI assistant API stuff, I realized how close I was to my dream personal assistant and spent the last couple hours getting it working.
 This is the first version of this personal assistant I have made public. Hope you enjoy!
+
+if you want to try out this project, download the ThaliAI.py file and replace the ElevenAPI and OpenAPI varibles with your API keys from OpenAI and ElevenLabs. I'm not made of money which is why I am not just giving access to my APIs.
