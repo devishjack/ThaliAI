@@ -14,6 +14,7 @@ roadmap:
 2. spotify, yt music & apple music API usage for player control
 3. wikipedia API usage for gaining quick knowledge on any wikipedia pages (later on, I'll look into adding functionality for fandom.com as well)
 4. quick front page news look up
+5. More user friendly features
 
 
 this is a recreation of an old python-based personal assistant I began creating over a year ago. It used hard coded response phrases with a lot of API integration.
