@@ -161,12 +161,12 @@ def main():
                     command = take_command()
                     if 'quit' in command:
                         response = generate_response( client, command, thread, os.getenv("assistantKey"))
-                        talk(response)
+                        talk(response, os.getenv("voice"))
                         client.beta.threads.delete()
                         break
                     else:
                         response = generate_response(client, command, thread, os.getenv("assistantKey"))
-                        talk(response)
+                        talk(response, os.getenv("voice"))
             elif 'quit' in command:
                 break
  
