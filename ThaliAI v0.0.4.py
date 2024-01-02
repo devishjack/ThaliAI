@@ -162,13 +162,11 @@ def main():
                     if 'quit' in command:
                         response = generate_response( client, command, thread, os.getenv("assistantKey"))
                         talk(response, os.getenv("voice"))
-                        client.beta.threads.delete()
-                        break
+                        client.beta.threads.delete(thread.id)
+                        quit()
                     else:
                         response = generate_response(client, command, thread, os.getenv("assistantKey"))
                         talk(response, os.getenv("voice"))
-            elif 'quit' in command:
-                break
  
 if __name__ == "__main__":
    main()
