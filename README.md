@@ -6,6 +6,7 @@
 
  1. Talk to an AI with a realistic synthesized voice.
  2. have the AI create and run simple code for complex math equations, timers & probably a lot of other things (I honestly don't know the limit since it uses OpenAI's code interpreter).
+ 3. created visualization of the AIs responses (just an anime girl with 3 different faces). 
 
 
 roadmap:
