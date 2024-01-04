@@ -2,7 +2,7 @@
  a personal AI assistant that uses OpenAI & ElevenLabs to create a personal assistant similar to ones only dreamed of in sc-fi movies and tv shows. The AI was named after the AI character in Logic's album The Incredible True Story.
 
 
- use cases as of 12/26/2023
+ use cases as of 1/4/2024
 
  1. Talk to an AI with a realistic synthesized voice.
  2. have the AI create and run simple code for complex math equations, timers & probably a lot of other things (I honestly don't know the limit since it uses OpenAI's code interpreter).
